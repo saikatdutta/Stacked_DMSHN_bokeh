@@ -1,4 +1,5 @@
 # Stacked Deep Multi-Scale Hierarchical Network for Fast Bokeh Effect Rendering from a Single Image
+_Saikat Dutta, Sourya Dipta Das, Nisarg A. Shah and Anil Kumar Tiwari_
 
 Accepted at Mobile AI workshop, collocated with CVPR 2021 [ArXiv]()
 
@@ -7,6 +8,10 @@ Pytorch 1.1.0 Torchvision 0.3.0 skimage 0.16.2
 ### 1. Dataset:
 
 Get the EBB! dataset by registering [here](https://competitions.codalab.org/competitions/24716).
+
+Train split: data/train.csv
+
+Test split (val294 set): data/test.csv 
 
 ### 2. Run inference on Val294 set using DMSHN model:
 ```
