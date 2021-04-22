@@ -5,6 +5,8 @@ Accepted at Mobile AI workshop, collocated with CVPR 2021 [ArXiv]()
 
 Pytorch 1.1.0 Torchvision 0.3.0 skimage 0.16.2
 
+[Colab demo]()
+
 ### 1. Dataset:
 
 Get the EBB! dataset by registering [here](https://competitions.codalab.org/competitions/24716).
