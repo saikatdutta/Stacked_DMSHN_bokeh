@@ -5,7 +5,7 @@ Accepted at Mobile AI workshop, collocated with CVPR 2021 [ArXiv]() [Supplementa
 
 Pytorch 1.1.0 Torchvision 0.3.0 skimage 0.16.2
 
-[Colab demo](https://colab.research.google.com/drive/1zl2_QOWjoWaN0bzDHSKJETkDgIiI62d0?usp=sharing)
+[**Colab demo**](https://colab.research.google.com/drive/1zl2_QOWjoWaN0bzDHSKJETkDgIiI62d0?usp=sharing)
 
 ### 1. Dataset:
 
