@@ -7,6 +7,9 @@ Pytorch 1.1.0 Torchvision 0.3.0 skimage 0.16.2
 
 [**Colab demo**](https://colab.research.google.com/drive/1zl2_QOWjoWaN0bzDHSKJETkDgIiI62d0?usp=sharing)
 
+![](assets/comparison.png)
+
+
 ### 1. Dataset:
 
 Get the EBB! dataset by registering [here](https://competitions.codalab.org/competitions/24716).
