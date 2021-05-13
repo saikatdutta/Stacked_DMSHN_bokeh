@@ -7,7 +7,10 @@ Pytorch 1.1.0 Torchvision 0.3.0 skimage 0.16.2
 
 [**Colab demo**](https://colab.research.google.com/drive/1zl2_QOWjoWaN0bzDHSKJETkDgIiI62d0?usp=sharing)
 
-![](assets/comparison.jpg)
+
+<img src="assets/demo.gif" width="640" height="400"/>
+
+<img src="assets/comparison.jpg" />
 
 
 ### 1. Dataset:
