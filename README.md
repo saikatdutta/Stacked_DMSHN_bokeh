@@ -34,6 +34,16 @@ python stacked_DMSHN_test.py
 python eval.py -d0 OUT_DIR -d1 GT_DIR --use_gpu 
 ```
 ### 5. Citation:
+```
+@misc{dutta2021stacked,
+      title={Stacked Deep Multi-Scale Hierarchical Network for Fast Bokeh Effect Rendering from a Single Image}, 
+      author={Saikat Dutta and Sourya Dipta Das and Nisarg A. Shah and Anil Kumar Tiwari},
+      year={2021},
+      eprint={2105.07174},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 ### 6. Related work:
 
