@@ -43,39 +43,17 @@ def count_parameters(model):
 
 bokehnet = stacked_DMSHN().to(device)
 bokehnet = nn.DataParallel(bokehnet)
-# bokehnet.load_state_dict(torch.load('stacked/dmshn-4-0.pth',map_location=device))
-bokehnet.load_state_dict(torch.load('../vanilla_models/stacked2/dmshn-12-0.pth',map_location=device))
-
-# bokehnet.load_state_dict(torch.load('vanilla3/dmshn-19-0.pth',map_location=device))
-# bokehnet.load_state_dict(torch.load('vanilla2_asl/dmshn-19-0.pth',map_location=device))
+bokehnet.load_state_dict(torch.load('checkpoints/SDMSHN/sdmshn.pth',map_location=device))
 
 
-
-import time
-
-total_time=0 
-
-
-# os.makedirs('outputs/stacked2_val294/',exist_ok= True)
-# os.makedirs('outputs/stacked2_val/',exist_ok= True)
 os.makedirs('outputs/stacked_DMSHN/',exist_ok= True)
 
 
-# org_dir = '../PyNET-Bokeh/test_ut/'
-# listfiles = os.listdir(org_dir)
-
-# os.makedirs('analysis',exist_ok=True)
 
 with torch.no_grad():
     for i in tqdm(range(4400,4694)):
-    #for i in tqdm(range(0,200)):
-    # for file in listfiles : 
-
-        # image_path = '/media/data2/saikat/bokeh_data/ValidationBokehFree/' + str(i) + '.png'
+    
         image_path = '/media/data2/saikat/bokeh_data/Training/original/' + str(i) + '.jpg'
-        #image_path = '/media/data2/saikat/bokeh_data/TestBokehFree/' + str(i) + '.png'
-
-        # image_path = org_dir + file
 
         # Load image and preprocess
         input_image = pil.open(image_path).convert('RGB')
@@ -91,12 +69,7 @@ with torch.no_grad():
         org_image = org_image.to(device)
         input_image = input_image.to(device)
 
-        start_time = time.time()
         bok_pred = bokehnet(input_image)
-        # print (bok_pred.shape)
-        total_time += time.time() - start_time
-
-        
 
         bok_pred = F.interpolate(bok_pred,(original_height,original_width),mode = 'bilinear')
         
