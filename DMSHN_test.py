@@ -42,7 +42,7 @@ feed_height = 1024
 
 bokehnet = DMSHN().to(device)
 # bokehnet = nn.DataParallel(bokehnet)
-bokehnet.load_state_dict(torch.load('../vanilla_models/vanilla4/dmshn-20-0.pth',map_location=device))
+bokehnet.load_state_dict(torch.load('checkpoints/DMSHN/dmshn.pth',map_location=device))
 
 
 
@@ -52,7 +52,7 @@ os.makedirs('outputs/DMSHN',exist_ok=True)
 with torch.no_grad():
     for i in tqdm(range(4400,4694)):
 
-        image_path = '/media/data2/saikat/bokeh_data/Training/original/' + str(i) + '.jpg'
+        image_path = '/media/data2/saikat/bokeh_data/Training/original/' + str(i) + '.jpg'   # change input path
 
         # Load image and preprocess
         input_image = pil.open(image_path).convert('RGB')
