@@ -1,13 +1,14 @@
 import cv2
 import argparse
 import os
-from util import util
 from skimage.measure import compare_psnr,compare_ssim
 from tqdm import tqdm
 import sys
 
 sys.path.insert(1,'PerceptualSimilarity')
 import models
+from util import util
+
 
 parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument('-d0','--dir0', type=str, )
