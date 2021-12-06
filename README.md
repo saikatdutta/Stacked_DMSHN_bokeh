@@ -1,7 +1,7 @@
 # Stacked Deep Multi-Scale Hierarchical Network for Fast Bokeh Effect Rendering from a Single Image
 _Saikat Dutta, Sourya Dipta Das, Nisarg A. Shah and Anil Kumar Tiwari_
 
-Accepted at Mobile AI workshop, co-located with CVPR 2021 [Paper](https://openaccess.thecvf.com/content/CVPR2021W/MAI/html/Dutta_Stacked_Deep_Multi-Scale_Hierarchical_Network_for_Fast_Bokeh_Effect_Rendering_CVPRW_2021_paper.html) | [ArXiv](https://arxiv.org/abs/2105.07174) | [Supplementary](https://drive.google.com/file/d/1MLGZ_I10SfrvlTlXAvVVxbIOgmWUxiPr/view?usp=sharing)
+Accepted at Mobile AI workshop, co-located with CVPR 2021 [Paper](https://openaccess.thecvf.com/content/CVPR2021W/MAI/html/Dutta_Stacked_Deep_Multi-Scale_Hierarchical_Network_for_Fast_Bokeh_Effect_Rendering_CVPRW_2021_paper.html) | [ArXiv](https://arxiv.org/abs/2105.07174) | [Supplementary](https://drive.google.com/file/d/1MLGZ_I10SfrvlTlXAvVVxbIOgmWUxiPr/view?usp=sharing) | [YouTube](https://www.youtube.com/watch?v=yyOAyv5iWmU)
 
 Pytorch 1.1.0 Torchvision 0.3.0 skimage 0.16.2
 
